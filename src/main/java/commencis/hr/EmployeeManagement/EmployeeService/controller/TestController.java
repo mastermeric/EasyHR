@@ -7,9 +7,9 @@ import java.time.LocalDate;
 import org.apache.logging.log4j.*;
    
 @RestController
-public class EmployeeTestController {    
+public class TestController {    
     
-    Logger myLogger = LogManager.getLogger(EmployeeTestController.class);    
+    Logger myLogger = LogManager.getLogger(TestController.class);    
 
     @GetMapping("test")
     public String test() {                

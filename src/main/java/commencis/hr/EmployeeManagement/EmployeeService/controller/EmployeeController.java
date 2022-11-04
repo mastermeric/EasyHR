@@ -22,6 +22,9 @@ import commencis.hr.EmployeeManagement.EmployeeService.repository.EmployeeReposi
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
+
+
+    // Bu Annotation ile DI saglanir..
     @Autowired
     private EmployeeRepository employeeRepository;
 
